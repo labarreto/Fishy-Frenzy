@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		480872A519F4459A00C1B40A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 480872A419F4459A00C1B40A /* Foundation.framework */; };
+		480872A719F4459A00C1B40A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 480872A619F4459A00C1B40A /* CoreGraphics.framework */; };
+		480872A919F4459A00C1B40A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 480872A819F4459A00C1B40A /* UIKit.framework */; };
+		480872AB19F4459A00C1B40A /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 480872AA19F4459A00C1B40A /* SpriteKit.framework */; };
+		480872B119F4459A00C1B40A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 480872AF19F4459A00C1B40A /* InfoPlist.strings */; };
+		480872B319F4459A00C1B40A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 480872B219F4459A00C1B40A /* main.m */; };
+		480872B719F4459A00C1B40A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 480872B619F4459A00C1B40A /* AppDelegate.m */; };
+		480872BA19F4459A00C1B40A /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 480872B819F4459A00C1B40A /* Main_iPhone.storyboard */; };
+		480872BD19F4459A00C1B40A /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 480872BB19F4459A00C1B40A /* Main_iPad.storyboard */; };
+		480872C019F4459A00C1B40A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 480872BF19F4459A00C1B40A /* ViewController.m */; };
+		480872C319F4459A00C1B40A /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 480872C219F4459A00C1B40A /* MyScene.m */; };
+		480872C519F4459A00C1B40A /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 480872C419F4459A00C1B40A /* Spaceship.png */; };
+		480872C719F4459A00C1B40A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 480872C619F4459A00C1B40A /* Images.xcassets */; };
+		480872CE19F4459A00C1B40A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 480872CD19F4459A00C1B40A /* XCTest.framework */; };
+		480872CF19F4459A00C1B40A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 480872A419F4459A00C1B40A /* Foundation.framework */; };
+		480872D019F4459A00C1B40A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 480872A819F4459A00C1B40A /* UIKit.framework */; };
+		480872D819F4459A00C1B40A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 480872D619F4459A00C1B40A /* InfoPlist.strings */; };
+		480872DA19F4459B00C1B40A /* Fishy_FrenzyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 480872D919F4459B00C1B40A /* Fishy_FrenzyTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		480872D119F4459A00C1B40A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4808729919F4459900C1B40A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 480872A019F4459A00C1B40A;
+			remoteInfo = "Fishy Frenzy";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		480872A119F4459A00C1B40A /* Fishy Frenzy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fishy Frenzy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		480872A419F4459A00C1B40A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		480872A619F4459A00C1B40A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		480872A819F4459A00C1B40A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		480872AA19F4459A00C1B40A /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		480872AE19F4459A00C1B40A /* Fishy Frenzy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Fishy Frenzy-Info.plist"; sourceTree = "<group>"; };
+		480872B019F4459A00C1B40A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		480872B219F4459A00C1B40A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		480872B419F4459A00C1B40A /* Fishy Frenzy-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Fishy Frenzy-Prefix.pch"; sourceTree = "<group>"; };
+		480872B519F4459A00C1B40A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		480872B619F4459A00C1B40A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		480872B919F4459A00C1B40A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		480872BC19F4459A00C1B40A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		480872BE19F4459A00C1B40A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		480872BF19F4459A00C1B40A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		480872C119F4459A00C1B40A /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
+		480872C219F4459A00C1B40A /* MyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
+		480872C419F4459A00C1B40A /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		480872C619F4459A00C1B40A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		480872CC19F4459A00C1B40A /* Fishy FrenzyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fishy FrenzyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		480872CD19F4459A00C1B40A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		480872D519F4459A00C1B40A /* Fishy FrenzyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Fishy FrenzyTests-Info.plist"; sourceTree = "<group>"; };
+		480872D719F4459A00C1B40A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		480872D919F4459B00C1B40A /* Fishy_FrenzyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fishy_FrenzyTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4808729E19F4459A00C1B40A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				480872A719F4459A00C1B40A /* CoreGraphics.framework in Frameworks */,
+				480872A919F4459A00C1B40A /* UIKit.framework in Frameworks */,
+				480872AB19F4459A00C1B40A /* SpriteKit.framework in Frameworks */,
+				480872A519F4459A00C1B40A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		480872C919F4459A00C1B40A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				480872CE19F4459A00C1B40A /* XCTest.framework in Frameworks */,
+				480872D019F4459A00C1B40A /* UIKit.framework in Frameworks */,
+				480872CF19F4459A00C1B40A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4808729819F4459900C1B40A = {
+			isa = PBXGroup;
+			children = (
+				480872AC19F4459A00C1B40A /* Fishy Frenzy */,
+				480872D319F4459A00C1B40A /* Fishy FrenzyTests */,
+				480872A319F4459A00C1B40A /* Frameworks */,
+				480872A219F4459A00C1B40A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		480872A219F4459A00C1B40A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				480872A119F4459A00C1B40A /* Fishy Frenzy.app */,
+				480872CC19F4459A00C1B40A /* Fishy FrenzyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		480872A319F4459A00C1B40A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				480872A419F4459A00C1B40A /* Foundation.framework */,
+				480872A619F4459A00C1B40A /* CoreGraphics.framework */,
+				480872A819F4459A00C1B40A /* UIKit.framework */,
+				480872AA19F4459A00C1B40A /* SpriteKit.framework */,
+				480872CD19F4459A00C1B40A /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		480872AC19F4459A00C1B40A /* Fishy Frenzy */ = {
+			isa = PBXGroup;
+			children = (
+				480872B519F4459A00C1B40A /* AppDelegate.h */,
+				480872B619F4459A00C1B40A /* AppDelegate.m */,
+				480872B819F4459A00C1B40A /* Main_iPhone.storyboard */,
+				480872BB19F4459A00C1B40A /* Main_iPad.storyboard */,
+				480872BE19F4459A00C1B40A /* ViewController.h */,
+				480872BF19F4459A00C1B40A /* ViewController.m */,
+				480872C119F4459A00C1B40A /* MyScene.h */,
+				480872C219F4459A00C1B40A /* MyScene.m */,
+				480872C419F4459A00C1B40A /* Spaceship.png */,
+				480872C619F4459A00C1B40A /* Images.xcassets */,
+				480872AD19F4459A00C1B40A /* Supporting Files */,
+			);
+			path = "Fishy Frenzy";
+			sourceTree = "<group>";
+		};
+		480872AD19F4459A00C1B40A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				480872AE19F4459A00C1B40A /* Fishy Frenzy-Info.plist */,
+				480872AF19F4459A00C1B40A /* InfoPlist.strings */,
+				480872B219F4459A00C1B40A /* main.m */,
+				480872B419F4459A00C1B40A /* Fishy Frenzy-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		480872D319F4459A00C1B40A /* Fishy FrenzyTests */ = {
+			isa = PBXGroup;
+			children = (
+				480872D919F4459B00C1B40A /* Fishy_FrenzyTests.m */,
+				480872D419F4459A00C1B40A /* Supporting Files */,
+			);
+			path = "Fishy FrenzyTests";
+			sourceTree = "<group>";
+		};
+		480872D419F4459A00C1B40A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				480872D519F4459A00C1B40A /* Fishy FrenzyTests-Info.plist */,
+				480872D619F4459A00C1B40A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		480872A019F4459A00C1B40A /* Fishy Frenzy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 480872DD19F4459B00C1B40A /* Build configuration list for PBXNativeTarget "Fishy Frenzy" */;
+			buildPhases = (
+				4808729D19F4459A00C1B40A /* Sources */,
+				4808729E19F4459A00C1B40A /* Frameworks */,
+				4808729F19F4459A00C1B40A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fishy Frenzy";
+			productName = "Fishy Frenzy";
+			productReference = 480872A119F4459A00C1B40A /* Fishy Frenzy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		480872CB19F4459A00C1B40A /* Fishy FrenzyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 480872E019F4459B00C1B40A /* Build configuration list for PBXNativeTarget "Fishy FrenzyTests" */;
+			buildPhases = (
+				480872C819F4459A00C1B40A /* Sources */,
+				480872C919F4459A00C1B40A /* Frameworks */,
+				480872CA19F4459A00C1B40A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				480872D219F4459A00C1B40A /* PBXTargetDependency */,
+			);
+			name = "Fishy FrenzyTests";
+			productName = "Fishy FrenzyTests";
+			productReference = 480872CC19F4459A00C1B40A /* Fishy FrenzyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4808729919F4459900C1B40A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Laura Barreto";
+				TargetAttributes = {
+					480872CB19F4459A00C1B40A = {
+						TestTargetID = 480872A019F4459A00C1B40A;
+					};
+				};
+			};
+			buildConfigurationList = 4808729C19F4459900C1B40A /* Build configuration list for PBXProject "Fishy Frenzy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4808729819F4459900C1B40A;
+			productRefGroup = 480872A219F4459A00C1B40A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				480872A019F4459A00C1B40A /* Fishy Frenzy */,
+				480872CB19F4459A00C1B40A /* Fishy FrenzyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4808729F19F4459A00C1B40A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				480872C519F4459A00C1B40A /* Spaceship.png in Resources */,
+				480872C719F4459A00C1B40A /* Images.xcassets in Resources */,
+				480872BD19F4459A00C1B40A /* Main_iPad.storyboard in Resources */,
+				480872BA19F4459A00C1B40A /* Main_iPhone.storyboard in Resources */,
+				480872B119F4459A00C1B40A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		480872CA19F4459A00C1B40A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				480872D819F4459A00C1B40A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4808729D19F4459A00C1B40A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				480872C319F4459A00C1B40A /* MyScene.m in Sources */,
+				480872C019F4459A00C1B40A /* ViewController.m in Sources */,
+				480872B719F4459A00C1B40A /* AppDelegate.m in Sources */,
+				480872B319F4459A00C1B40A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		480872C819F4459A00C1B40A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				480872DA19F4459B00C1B40A /* Fishy_FrenzyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		480872D219F4459A00C1B40A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 480872A019F4459A00C1B40A /* Fishy Frenzy */;
+			targetProxy = 480872D119F4459A00C1B40A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		480872AF19F4459A00C1B40A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				480872B019F4459A00C1B40A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		480872B819F4459A00C1B40A /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				480872B919F4459A00C1B40A /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		480872BB19F4459A00C1B40A /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				480872BC19F4459A00C1B40A /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		480872D619F4459A00C1B40A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				480872D719F4459A00C1B40A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		480872DB19F4459B00C1B40A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		480872DC19F4459B00C1B40A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		480872DE19F4459B00C1B40A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fishy Frenzy/Fishy Frenzy-Prefix.pch";
+				INFOPLIST_FILE = "Fishy Frenzy/Fishy Frenzy-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		480872DF19F4459B00C1B40A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fishy Frenzy/Fishy Frenzy-Prefix.pch";
+				INFOPLIST_FILE = "Fishy Frenzy/Fishy Frenzy-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		480872E119F4459B00C1B40A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Fishy Frenzy.app/Fishy Frenzy";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fishy Frenzy/Fishy Frenzy-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Fishy FrenzyTests/Fishy FrenzyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		480872E219F4459B00C1B40A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Fishy Frenzy.app/Fishy Frenzy";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fishy Frenzy/Fishy Frenzy-Prefix.pch";
+				INFOPLIST_FILE = "Fishy FrenzyTests/Fishy FrenzyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4808729C19F4459900C1B40A /* Build configuration list for PBXProject "Fishy Frenzy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				480872DB19F4459B00C1B40A /* Debug */,
+				480872DC19F4459B00C1B40A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		480872DD19F4459B00C1B40A /* Build configuration list for PBXNativeTarget "Fishy Frenzy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				480872DE19F4459B00C1B40A /* Debug */,
+				480872DF19F4459B00C1B40A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		480872E019F4459B00C1B40A /* Build configuration list for PBXNativeTarget "Fishy FrenzyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				480872E119F4459B00C1B40A /* Debug */,
+				480872E219F4459B00C1B40A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4808729919F4459900C1B40A /* Project object */;
+}
